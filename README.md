@@ -19,10 +19,10 @@ This is REST API to manage DB entities - Book, Author
 - DELETE: /books/id - delete book by id
 - DELETE: /authors/id - delete author by id
 - 
-- GET: /books/by-author-name - get books by author name
-- GET: /books/most-selling - get most selling books by author name
+- GET: /books/author-name - get books by author name
+- GET: /books/max-sold - get most selling books by author name
 - GET: /books/most-published - get most published books by author name
-- GET: /books/most-selling/by-part-name - get most selling books by author part name
+- GET: /books/max-sold/by-part-name - get most selling books by author part name
 - GET: /books/most-published/by-part-name - get most published books by author part name
 - GET: /books/most-success-rate - get book by most success rate by author part name
 
